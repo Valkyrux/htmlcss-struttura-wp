@@ -84,3 +84,33 @@ div.contact-image{
     float: right;
 }
 
+#text-input{
+    background-color: rgb(241, 235, 235);
+    margin: 0 auto;
+    margin-top: 570px;
+    margin-bottom: 15px;
+    height: 70px;
+    width: 90%;
+    border-radius: 35px;
+    padding: 10px;
+    padding-right: 15px;
+    padding-left: 40px;
+    line-height: 50px;
+    font-size: 46px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: gray;
+    font-style: italic;
+}
+
+#send{
+    background-color: rgb(27, 139, 27);
+    float: right;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    font-size: 40px;
+    color: white;
+    font-style: normal;
+}
