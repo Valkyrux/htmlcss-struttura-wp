@@ -4,10 +4,21 @@
     box-sizing: border-box;
 }
 
-#contact-list{
+.contact-list{
     width: 30%;
-    background-color: grey;
+    background-color: rgb(209, 209, 209);
     padding: 50px 10px;
+}
+
+.contact-list,.message-box{
+    float:left;
+}
+
+.message-box{
+    width: 70%;
+    /* height: 700px; */
+    background-color: rgb(187, 212, 248);
+    /* padding: 50px 10px; */
 }
 
 #your-image{
@@ -27,15 +38,14 @@
     display: block;
 }
 
-#contact-list::after{
+.clear-fix::after{
     content: '';
     display: table;
     clear: both;
 }
 
-div[class*="contact"]{
+.contact-list div[class*="contact"]{
     margin: 20px 5%;
-    border-radius: 5px;
     height: 30px;
     background-color: white;
     display: block;
@@ -50,3 +60,27 @@ div.contact-image{
 .contact{
     width: 70%;
 }
+
+#chat-box{
+    margin: 30px auto;
+    padding: 20px;
+}
+
+#chat-box div[class*="message"]{
+    margin: 15px;
+    border-radius: 5px;
+    height: 40px;
+    width: 60%;
+    display: block;
+}
+
+.received-message{
+    background-color: white;
+    float: left;
+}
+
+.sent-message{
+    background-color: rgb(38, 199, 38);
+    float: right;
+}
+
