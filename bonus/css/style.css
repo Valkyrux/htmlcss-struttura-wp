@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#contact-list{
+    width: 30%;
+    background-color: grey;
+    padding: 50px 10px;
+}
+
+#your-image{
+    margin: 0 auto;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    background-color: white;
+}
+
+#your-name{
+    margin: 20px auto;
+    border-radius: 5px;
+    width: calc(90% - 10px);
+    height: 40px;
+    background-color: white;
+    display: block;
+}
+
+#contact-list::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+div[class*="contact"]{
+    margin: 20px 5%;
+    border-radius: 5px;
+    height: 30px;
+    background-color: white;
+    display: block;
+    float: left;
+}
+
+div.contact-image{
+    width: 30px;
+    border-radius: 50%;
+}
+
+.contact{
+    width: 70%;
+}
